@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+header.header{
+ height: 73px;
+border-bottom: 1px solid grey;
+align-items: center;
+
+}
+.img{
+    display: block;
+}
+.header-container{
+width: 1100px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+}
+.logo{
+margin-right: 40px;
+}
+.nav{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    color: #18191f;
+    margin-top: -4px;
+}
+
+.nav-link{
+    color: #18191f;
+    text-decoration: none;
+    margin-right: 35px;
+}
+.nav-link:hover{
+ color: purple;
+}
+.appstore{
+margin-left:auto ;
+}
+.appstore_item{
+    margin-left: 12px;
+}
+
+
+
+/* MAIN */
+
+.main-container{
+width: 1100px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding-top: 197px;
+padding-bottom: 197px;
+}
+.main-content{
+width: 546px;
+font-size: 18px;
+line-height: 1.78;
+}
+
+.main-header{
+margin: 0px;
+font-weight: 800;
+
+font-size: 72px;
+line-height: 1.36;
+color: #18191f;
+}
+.main-text
+{
+    margin-bottom: 32px;
+}
+.main-content p{
+    font-size: 18px;
+    line-height: 1.78;
+}
+.button{
+display: inline-block;
+padding-right: 35px;
+padding-left: 35px ;
+height: 62px;
+background: purple;
+border-radius: 8px;
+
+font-weight: bold;
+font-size: 20px;
+line-height: 62px;
+
+text-align: center;
+color: white;
+text-decoration: none;
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+/* FOOTER */
+.footer{
+    display: flex;
+    align-items: center;
+ background-color: black;
+ height: 72px;
+ color: white;
+}
+.footer-container{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-copyright{
+ font-size: 14px;
+}
+.footer-socials{
+display: flex ;
+}
+.footer-socials-item{
+    margin-left: 16px ;
+    }
